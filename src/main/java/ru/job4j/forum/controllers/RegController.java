@@ -10,13 +10,13 @@ import ru.job4j.forum.store.AuthorityRepository;
 import ru.job4j.forum.store.UserRepository;
 
 @Controller
-public class RegControl {
+public class RegController {
 
     private final PasswordEncoder encoder;
     private final UserRepository users;
     private final AuthorityRepository authorities;
 
-    public RegControl(PasswordEncoder encoder, UserRepository users, AuthorityRepository authorities) {
+    public RegController(PasswordEncoder encoder, UserRepository users, AuthorityRepository authorities) {
         this.encoder = encoder;
         this.users = users;
         this.authorities = authorities;

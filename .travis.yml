@@ -23,3 +23,8 @@ env:
   global:
     - CODECOV_TOKEN="d96bf7b2-8ad1-4826-b681-31aa9d060f4c"
 
+services:
+  - postgresql
+
+before_install:
+  - psql -c 'create database forum;' -U postgres
