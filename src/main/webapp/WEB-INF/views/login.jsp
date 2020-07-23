@@ -22,6 +22,7 @@
         </tr>
     </table>
     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
+    <a href="<c:url value='/reg'/>">Зарегистрироваться</a>
 </form>
 </body>
 </html>

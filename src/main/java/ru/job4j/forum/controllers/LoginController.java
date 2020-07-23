@@ -33,7 +33,7 @@ public class LoginController {
         model.addAttribute("errorMessge", errorMessge);
         return "login";
     }
-
+/*
     @PostMapping("/reg")
     public String reg(@ModelAttribute User user) throws Exception {
         return "redirect:/login";
@@ -43,4 +43,6 @@ public class LoginController {
     public String reg() throws Exception {
         return "redirect:/login";
     }
+
+ */
 }

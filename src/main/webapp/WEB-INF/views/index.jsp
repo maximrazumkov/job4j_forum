@@ -31,7 +31,7 @@
             <tbody>
             <c:forEach items="${posts}" var="post">
                 <tr>
-                    <td><c:out value="${post.name}"/></td>
+                    <td><a href="<c:url value='/edit/${post.id}'/>"><c:out value="${post.name}"/></a></td>
                 </tr>
             </c:forEach>
             </tbody>
